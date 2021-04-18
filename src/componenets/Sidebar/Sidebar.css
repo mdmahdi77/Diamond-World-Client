@@ -1,0 +1,17 @@
+.sidebar{
+    background-image: linear-gradient(130deg, #ff0c43, #34000c);
+    height: 100vh;
+}
+.sidebar li{
+    margin-bottom: 2em;
+    transition: all 0.5s;
+}
+.sidebar li:hover span{
+    display: inline-block;
+    transform: translateX(5px);
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.sidebar svg{
+    margin-right: 5px;
+}

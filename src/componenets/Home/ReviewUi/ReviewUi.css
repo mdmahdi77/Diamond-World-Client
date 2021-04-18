@@ -1,0 +1,18 @@
+.uiReview{
+    margin: 5px;
+    border: 1px solid gray;
+    padding: 10px 0 !important;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.uiReview:hover{
+    background-image: linear-gradient(75deg, #ff0c43,#ff6e8f) !important;
+    color: white !important;
+}
+.uiReview h4{
+    font-size: 30px;
+    color: #080808;
+}
+.uiReview h6{
+    color: #080808;
+}

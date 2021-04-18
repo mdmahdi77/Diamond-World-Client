@@ -1,0 +1,56 @@
+.background{
+    background-image: linear-gradient(75deg, rgba(211, 36, 36, 0.4), rgba(48, 4, 4, 0.4)), url('../../../images/s-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.text-style h1{
+    font-size: 60px;
+    color: #ff0c43;
+    text-transform: uppercase;
+}
+.text-style h3{
+    color: #080808;
+}
+.mainBtn{
+    border: none;
+    background-image: linear-gradient(75deg, #ff0c43, #ff4770);
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.mainBtn:hover{
+    letter-spacing: 2px;
+}
+
+@media (max-width: 992px){
+    .text-style h1{
+        font-size: 40px;
+    }
+    .text-style h3{
+        font-size: 22px;
+    }
+    .mainBtn{
+        width: 120px;
+        height: 30px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px){
+    .text-style h1{
+        font-size: 30px;
+    }
+    .text-style h3{
+        font-size: 18px;
+    }
+    .mainBtn{
+        width: 100px;
+        height: 30px;
+        font-size: 13px;
+    }
+}

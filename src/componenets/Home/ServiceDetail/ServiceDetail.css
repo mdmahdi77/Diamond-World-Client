@@ -1,0 +1,8 @@
+.card{
+    transition: transform .5s ease;
+    overflow: hidden;
+}
+.card:hover{
+    transform: scale(1.1);
+    background-image: linear-gradient(75deg, #ff0c43, #ff4770);
+}

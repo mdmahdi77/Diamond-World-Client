@@ -1,0 +1,38 @@
+.dashboard-style-two h1{
+    color: #080808;
+    margin: 20px 0;
+}
+form input{
+    border: none;
+    padding: 10px 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 400px;
+}
+form textarea{
+    border: none;
+    padding-bottom: 100px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 400px;
+}
+form .mainBtn{
+    border: none;
+    background-image: linear-gradient(75deg, #ff0c43, #200007);
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+form .mainBtn:hover{
+    letter-spacing: 2px;
+}
+form input[type=file]{
+    border: none;
+    padding: 10px 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 400px;
+}
