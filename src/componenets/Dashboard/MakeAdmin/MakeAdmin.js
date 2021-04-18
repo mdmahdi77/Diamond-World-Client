@@ -11,7 +11,7 @@ const MakeAdmin = () => {
             email: data.email
           }
         console.log(data)
-        const uri = `http://localhost:5000/addAdmin`
+        const uri = `https://peaceful-beach-33523.herokuapp.com/addAdmin`
         fetch(uri, {
             method: 'POST',
             headers: {

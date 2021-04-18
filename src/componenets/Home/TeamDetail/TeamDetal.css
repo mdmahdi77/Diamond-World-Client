@@ -2,4 +2,21 @@
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    transition: transform 0.7s ease;
+}
+.member img:hover{
+    transform: scale(0.9)
+}
+
+@media (max-width: 992px){
+    .member img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (max-width: 576px){
+    .member img{
+        width: 150px;
+        height: 150px;
+    }
 }

@@ -1,15 +1,11 @@
-import React, { useContext, useEffect, useState } from 'react';
-import ring from '../../../images/rings.png';
-import necklace from '../../../images/necklace.png';
-import earRings from '../../../images/earrings.png';
+import React, { useEffect, useState } from 'react';
 import ServiceDetail from '../ServiceDetail/ServiceDetail';
-import { ServiceDataLoad } from '../../../App';
 
 const Service = () => {
     const [servicesData, setServicesData] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://peaceful-beach-33523.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setServicesData(data))
     },[])

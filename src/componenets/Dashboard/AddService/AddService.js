@@ -15,7 +15,7 @@ const AddService = () => {
             img: imageUrl
           }
         console.log(data)
-        const uri = `http://localhost:5000/addService`
+        const uri = `https://peaceful-beach-33523.herokuapp.com/addService`
         fetch(uri, {
             method: 'POST',
             headers: {

@@ -10,7 +10,7 @@ const Booking = () => {
     const [booking, setBooking] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://peaceful-beach-33523.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setBooking(data))
     },[])
@@ -27,7 +27,7 @@ const Booking = () => {
 
         // const orderDetails = {paymentId, order: orderData, orderTime: new Date()}
 
-        fetch('http://localhost:5000/addOrnaments', {
+        fetch('https://peaceful-beach-33523.herokuapp.com/addOrnaments', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(orderData, paymentId)

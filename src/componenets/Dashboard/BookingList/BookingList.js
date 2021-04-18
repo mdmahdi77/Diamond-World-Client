@@ -9,7 +9,7 @@ const BookingList = () => {
     const [loggedInUser, setLoggedInUser] = useContext(ServiceDataLoad)
     const [bookingList, setBookingList] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/bookingList?email='+loggedInUser.email)
+        fetch('https://peaceful-beach-33523.herokuapp.com/bookingList?email='+loggedInUser.email)
         .then(res => res.json())
         .then(data => {
             setBookingList(data)

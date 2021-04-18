@@ -12,7 +12,7 @@ const ReviewForm = () => {
             description: data.description
         }
         console.log(data)
-        const url = `http://localhost:5000/addReview`
+        const url = `https://peaceful-beach-33523.herokuapp.com/addReview`
         fetch(url, {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
